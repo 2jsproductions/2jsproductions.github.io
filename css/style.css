@@ -1,16 +1,16 @@
-/* General Styles */
+/* General Styles (unchanged) */
 body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #000; /* Black background */
-    color: #fff; /* White text for contrast */
+    background-color: #000;
+    color: #fff;
     line-height: 1.6;
 }
 
-/* Header */
+/* Header (unchanged) */
 header {
-    background: #111; /* Slightly lighter black */
+    background: #111;
     text-align: center;
     padding: 50px 0;
 }
@@ -31,19 +31,19 @@ nav ul {
 }
 
 nav ul li a {
-    color: #ccc; /* Light gray */
+    color: #ccc;
     font-size: 1.1rem;
     text-transform: uppercase;
     padding: 10px 20px;
     font-weight: bold;
     border: 1px solid transparent;
     transition: all 0.3s ease;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-    color: #fff; /* White hover effect */
-    background: #444; /* Dark gray background */
+    color: #fff;
+    background: #444;
 }
 
 nav ul li:not(:last-child) a {
@@ -52,73 +52,70 @@ nav ul li:not(:last-child) a {
 
 nav ul li:last-child a {
     border-left: 1px solid #444;
-    padding-left: 20px; /* Separate Contact Link */
+    padding-left: 20px;
 }
 
-/* Section Headers */
+/* Section Headers (unchanged) */
 .work-section h2 {
     font-size: 2.5rem;
-    color: #ccc; /* Light gray, same as links */
+    color: #ccc;
     margin-bottom: 30px;
     text-transform: uppercase;
-    text-align: center; /* Centered headers */
+    text-align: center;
 }
 
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Montserrat:wght@300&display=swap');
-
-/* Section Descriptions */
+/* Section Descriptions (unchanged) */
 .section-description {
-    font-family: 'Montserrat', sans-serif; /* Modern and elegant sans-serif font */
-    font-size: 1.3rem; /* Slightly larger text size */
-    color: #ddd; /* Softer light gray for better readability */
-    text-align: center; /* Centered below the title */
-    margin: 15px 0 60px; /* More space between text and pictures */
-    line-height: 1.8; /* Increased line spacing for readability */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #ddd;
+    text-align: center;
+    margin: 15px 0 60px;
+    line-height: 1.8;
 }
 
-/* About Section */
+/* About Section (unchanged) */
 .about-section {
-    padding: 60px 20px; /* Generous padding for spacing */
-    background-color: #111; /* Darker background for distinction */
-    border-top: 2px solid #444; /* Add top border */
-    border-bottom: 2px solid #444; /* Bottom border to separate it from other sections */
-    text-align: center; /* Center all content */
+    padding: 60px 20px;
+    background-color: #111;
+    border-top: 2px solid #444;
+    border-bottom: 2px solid #444;
+    text-align: center;
 }
 
 .about-section h2 {
-    font-family: 'Montserrat', sans-serif; /* Matches other sections */
-    font-size: 2.5rem; /* Consistent with section titles */
-    color: #fff; /* White text for contrast */
-    margin-bottom: 20px; /* Space below the title */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
     text-transform: uppercase;
 }
 
 .about-description {
-    font-family: 'Montserrat', sans-serif; /* Elegant sans-serif font */
-    font-size: 1.2rem; /* Slightly smaller text for distinction */
-    color: #ddd; /* Softer gray for readability */
-    line-height: 1.8; /* Improve readability */
-    max-width: 800px; /* Limit text width for better layout */
-    margin: 0 auto; /* Center the text */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #ddd;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-/* Grid Adjustments */
+/* Grid Layout (unchanged) */
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    max-width: 1000px; /* Increased grid width */
-    margin: 0 auto; /* Center the grid */
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .grid-item img {
     width: 100%;
-    max-width: 450px; /* Slightly larger images */
+    max-width: 450px;
     border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-    margin: 0 auto; /* Center images */
+    margin: 0 auto;
 }
 
 .grid-item img:hover {
@@ -126,22 +123,22 @@ nav ul li:last-child a {
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
 }
 
-/* Contact Section Specific Styling */
+/* Contact Section (unchanged) */
 .contact-container {
-    text-align: center; /* Center the entire contact section */
+    text-align: center;
 }
 
 .contact-details p {
-    font-size: 1.2rem; /* Slightly larger text for better readability */
-    margin: 10px 0; /* Add spacing between lines */
-    color: #ccc; /* Light gray color to match the rest of the design */
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ccc;
 }
 
 .contact-details strong {
-    color: #fff; /* Highlight the labels (E-mailová adresa and Telefon) in white */
+    color: #fff;
 }
 
-/* Footer */
+/* Footer (unchanged) */
 footer {
     background: #111;
     text-align: center;
@@ -166,6 +163,74 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #888; /* Gray hover */
+    color: #888;
 }
 
+/* Mobile-Specific Adjustments (Media Queries) */
+@media (max-width: 768px) {
+    /* Navigation Bar Adjustments */
+    nav ul {
+        flex-wrap: wrap; /* Allow navigation items to wrap */
+        gap: 10px; /* Reduce gap between items */
+    }
+
+    nav ul li a {
+        font-size: 0.9rem; /* Smaller font size for mobile */
+        padding: 8px 15px; /* Reduce padding for mobile */
+    }
+
+    nav ul li:not(:last-child) a {
+        margin-right: 0; /* Remove margin between items */
+    }
+
+    nav ul li:last-child a {
+        border-left: none; /* Remove border for mobile */
+        padding-left: 15px; /* Adjust padding */
+    }
+
+    /* Text Size Adjustments */
+    .work-section h2 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .section-description {
+        font-size: 1rem; /* Smaller font size for mobile */
+        margin: 10px 0 40px; /* Adjust margins for mobile */
+    }
+
+    .about-section h2 {
+        font-size: 2rem; /* Smaller font size for mobile */
+    }
+
+    .about-description {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+
+    .contact-details p {
+        font-size: 1rem; /* Smaller font size for mobile */
+    }
+
+    /* Content Spacing Adjustments */
+    .container {
+        padding: 0 15px; /* Add padding to prevent content from touching edges */
+    }
+
+    .about-section {
+        padding: 40px 15px; /* Adjust padding for mobile */
+    }
+
+    .contact-container {
+        padding: 20px 15px; /* Add padding for mobile */
+    }
+
+    /* Grid Layout Adjustments */
+    .grid {
+        grid-template-columns: repeat(2, 1fr); /* Keep 2x2 grid layout */
+        gap: 15px; /* Reduce gap for mobile */
+        max-width: 90%; /* Adjust width for mobile */
+    }
+
+    .grid-item img {
+        max-width: 100%; /* Ensure images fit within the grid */
+    }
+}
