@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text for contrast */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #111; /* Slightly lighter black */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.logo img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #ccc; /* Light gray */
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+    text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+    color: #fff; /* White hover effect */
+    background: #444; /* Dark gray background */
+}
+
+nav ul li:not(:last-child) a {
+    margin-right: 15px;
+}
+
+nav ul li:last-child a {
+    border-left: 1px solid #444;
+    padding-left: 20px; /* Separate Contact Link */
+}
+
+/* Section Headers */
+.work-section h2 {
+    font-size: 2.5rem;
+    color: #ccc; /* Light gray, same as links */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center; /* Centered headers */
+}
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&family=Montserrat:wght@300&display=swap');
+
+/* Section Descriptions */
+.section-description {
+    font-family: 'Montserrat', sans-serif; /* Modern and elegant sans-serif font */
+    font-size: 1.3rem; /* Slightly larger text size */
+    color: #ddd; /* Softer light gray for better readability */
+    text-align: center; /* Centered below the title */
+    margin: 15px 0 60px; /* More space between text and pictures */
+    line-height: 1.8; /* Increased line spacing for readability */
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 20px; /* Generous padding for spacing */
+    background-color: #111; /* Darker background for distinction */
+    border-top: 2px solid #444; /* Add top border */
+    border-bottom: 2px solid #444; /* Bottom border to separate it from other sections */
+    text-align: center; /* Center all content */
+}
+
+.about-section h2 {
+    font-family: 'Montserrat', sans-serif; /* Matches other sections */
+    font-size: 2.5rem; /* Consistent with section titles */
+    color: #fff; /* White text for contrast */
+    margin-bottom: 20px; /* Space below the title */
+    text-transform: uppercase;
+}
+
+.about-description {
+    font-family: 'Montserrat', sans-serif; /* Elegant sans-serif font */
+    font-size: 1.2rem; /* Slightly smaller text for distinction */
+    color: #ddd; /* Softer gray for readability */
+    line-height: 1.8; /* Improve readability */
+    max-width: 800px; /* Limit text width for better layout */
+    margin: 0 auto; /* Center the text */
+}
+
+/* Grid Adjustments */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px; /* Increased grid width */
+    margin: 0 auto; /* Center the grid */
+}
+
+.grid-item img {
+    width: 100%;
+    max-width: 450px; /* Slightly larger images */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    margin: 0 auto; /* Center images */
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* Contact Section Specific Styling */
+.contact-container {
+    text-align: center; /* Center the entire contact section */
+}
+
+.contact-details p {
+    font-size: 1.2rem; /* Slightly larger text for better readability */
+    margin: 10px 0; /* Add spacing between lines */
+    color: #ccc; /* Light gray color to match the rest of the design */
+}
+
+.contact-details strong {
+    color: #fff; /* Highlight the labels (E-mailová adresa and Telefon) in white */
+}
+
+/* Footer */
+footer {
+    background: #111;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #888; /* Gray hover */
+}
+
